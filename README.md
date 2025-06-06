@@ -52,6 +52,8 @@ Futhesia Moduora is an intellectually and structurally evolving input device bor
 - **Resonant Evolution (共鳴型進化)**: Organic integration of developer codes and designs
 - **Tectonic Mode (テンティング適応)**: Physically adaptable form-factor
 
+Choose one module by uncommenting the desired include statement and commenting out others.
+
 ## Natural Habitat | 生態／運用環境
 Thrives in collaborative environments, particularly hackathons and technical conventions.
 単体での生息よりも、共創型の環境下において最も高いパフォーマンスを発揮する。
