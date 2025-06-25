@@ -35,14 +35,14 @@ manifest:
     - name: zmk-nice-oled
       remote: mctechnology17
       revision: main
-    - name: zmk-driver-hmc5883l
+    - name: zmk-driver-tlx493d-2
       remote: te9no
       revision: main
     - name: zmk-layout-shift
       remote: kot149
       revision: v1
     - name: zmk-input-processor-keybind
-      remote: zettaface
+      remote: te9no
       revision: main
     # - name: zmk-leader-key
     #   remote: urob
