@@ -34,6 +34,7 @@ manifest:
     #   revision: main
     - name: zmk-nice-oled
       remote: mctechnology17
+<<<<<<< HEAD
       revision: main
     - name: zmk-layout-shift
       remote: kot149
