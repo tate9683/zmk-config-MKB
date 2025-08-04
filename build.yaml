@@ -46,9 +46,5 @@ include:
     artifact-name: MKB_R_MODULE_RZT
 
   - board: seeeduino_xiao_ble
-<<<<<<< HEAD
     shield: settings_reset
-=======
-    shield: settings_reset
->>>>>>> origin/v0.2.6_MLX
 
