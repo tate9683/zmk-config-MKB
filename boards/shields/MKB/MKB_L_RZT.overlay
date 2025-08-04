@@ -10,6 +10,7 @@
     pinctrl-names = "default", "sleep";
     clock-frequency = <100000>; 
     
+<<<<<<< HEAD
     magnet: lis3mdl@1c {
         compatible = "st,lis3mdl-input";
         reg = <0x1c>;
@@ -18,6 +19,24 @@
         z-hysteresis = <10>;
         // normal-binding = <&kp A>;           // Behavior bindings can be added here
         // pressed-binding = <&kp B>; // See driver documentation for usage
+=======
+    mlx90393_input: mlx90393-input@c {
+        compatible = "melexis,mlx90393-input";
+        reg = <0x0C>;
+        
+        polling-interval-ms = <10>;
+        z-press-threshold = <50>;
+        z-hysteresis = <10>;
+        
+        bindings = <&mkp LCLK>, <&mkp MCLK>;
+        
+        deadzone-x = <3>;
+        deadzone-y = <3>;
+        deadzone-z = <5>;
+        
+        movement-threshold = <20>;
+        auto-calibration-timeout-s = <30>;
+>>>>>>> origin/v0.2.6_MLX
     };
 };
 
@@ -44,12 +63,20 @@
     magnet_listener: magnet_listener {
         compatible = "zmk,input-listener";
         status = "okay";
+<<<<<<< HEAD
         device = <&magnet>;
+=======
+        device = <&mlx90393_input>;
+>>>>>>> origin/v0.2.6_MLX
         move {
             layers = <0>;
             input-processors = 
                                 // <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP)>,
+<<<<<<< HEAD
                                 <&zip_xy_scaler 1 2>;
+=======
+                                <&zip_xy_scaler 1 32>;
+>>>>>>> origin/v0.2.6_MLX
         };
     };
 };

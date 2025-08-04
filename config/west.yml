@@ -8,12 +8,20 @@ manifest:
       url-base: https://github.com/badjeff
     - name: te9no
       url-base: https://github.com/te9no
+<<<<<<< HEAD
     - name: zettaface
       url-base: https://github.com/zettaface
+=======
+>>>>>>> origin/v0.2.6_MLX
     - name: kot149
       url-base: https://github.com/kot149
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+<<<<<<< HEAD
+=======
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
+>>>>>>> origin/v0.2.6_MLX
   projects:
     - name: zmk
       #remote: zmkfirmware
@@ -34,9 +42,12 @@ manifest:
     #   revision: main
     - name: zmk-nice-oled
       remote: mctechnology17
+<<<<<<< HEAD
       revision: main
     - name: zmk-driver-LIS3MDLTR
       remote: te9no
+=======
+>>>>>>> origin/v0.2.6_MLX
       revision: main
     - name: zmk-layout-shift
       remote: kot149
@@ -47,6 +58,12 @@ manifest:
     # - name: zmk-leader-key
     #   remote: urob
     #   revision: v0.2.1 # set to same as ZMK version above
+    - name: cirque-input-module
+      remote: petejohanson
+      revision: main
+    - name: zmk-driver-MLX90393
+      remote: te9no
+      revision: main
   self:
     path: config
     
