@@ -47,11 +47,16 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - RIGHT
-  - DOWN
-  - UP
   - LEFT
+<<<<<<< HEAD
   - ENTER
+=======
+  - UP
+  - SPACE
+  - DOWN
+  - RIGHT
+  - HOME
+>>>>>>> origin/v0.2.6_MLX
   - PG UP
   - END
   - HOME
@@ -104,11 +109,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RIGHT
-  - DOWN
-  - UP
   - LEFT
+<<<<<<< HEAD
   - ENTER
+=======
+  - UP
+  - SPACE
+  - DOWN
+  - RIGHT
+  - HOME
+>>>>>>> origin/v0.2.6_MLX
   - PG UP
   - END
   - HOME
@@ -161,11 +171,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RIGHT
-  - DOWN
-  - UP
   - LEFT
+<<<<<<< HEAD
   - ENTER
+=======
+  - UP
+  - SPACE
+  - DOWN
+  - RIGHT
+  - HOME
+>>>>>>> origin/v0.2.6_MLX
   - PG UP
   - END
   - HOME
@@ -218,11 +233,20 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+<<<<<<< HEAD
   - RIGHT
   - DOWN
   - UP
   - LEFT
   - ENTER
+=======
+  - LEFT
+  - UP
+  - SPACE
+  - DOWN
+  - RIGHT
+  - HOME
+>>>>>>> origin/v0.2.6_MLX
   - PG UP
   - END
   - HOME
@@ -275,11 +299,20 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+<<<<<<< HEAD
   - RIGHT
   - DOWN
   - UP
   - LEFT
   - ENTER
+=======
+  - LEFT
+  - UP
+  - SPACE
+  - DOWN
+  - RIGHT
+  - HOME
+>>>>>>> origin/v0.2.6_MLX
   - PG UP
   - END
   - HOME
@@ -332,11 +365,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RIGHT
-  - DOWN
-  - UP
   - LEFT
+<<<<<<< HEAD
   - ENTER
+=======
+  - UP
+  - SPACE
+  - DOWN
+  - RIGHT
+  - HOME
+>>>>>>> origin/v0.2.6_MLX
   - PG UP
   - END
   - HOME
