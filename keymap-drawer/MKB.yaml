@@ -48,20 +48,15 @@ layers:
   - DOWN
   - RIGHT
   - LEFT
-<<<<<<< HEAD
-  - ENTER
-=======
   - UP
   - SPACE
   - DOWN
   - RIGHT
   - HOME
->>>>>>> origin/v0.2.6_MLX
   - PG UP
-  - END
-  - HOME
-  - PG DN
   - ENTER
+  - PG DN
+  - END
   Fnc:
   - GRAVE
   - PG UP
@@ -110,20 +105,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
-<<<<<<< HEAD
-  - ENTER
-=======
   - UP
   - SPACE
   - DOWN
   - RIGHT
   - HOME
->>>>>>> origin/v0.2.6_MLX
   - PG UP
-  - END
-  - HOME
-  - PG DN
   - ENTER
+  - PG DN
+  - END
   Num:
   - CAPS
   - '1'
@@ -172,20 +162,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
-<<<<<<< HEAD
-  - ENTER
-=======
   - UP
   - SPACE
   - DOWN
   - RIGHT
   - HOME
->>>>>>> origin/v0.2.6_MLX
   - PG UP
-  - END
-  - HOME
-  - PG DN
   - ENTER
+  - PG DN
+  - END
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -233,25 +218,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-<<<<<<< HEAD
-  - RIGHT
-  - DOWN
-  - UP
-  - LEFT
-  - ENTER
-=======
   - LEFT
   - UP
   - SPACE
   - DOWN
   - RIGHT
   - HOME
->>>>>>> origin/v0.2.6_MLX
   - PG UP
-  - END
-  - HOME
-  - PG DN
   - ENTER
+  - PG DN
+  - END
   Scr:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -299,25 +275,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-<<<<<<< HEAD
-  - RIGHT
-  - DOWN
-  - UP
-  - LEFT
-  - ENTER
-=======
   - LEFT
   - UP
   - SPACE
   - DOWN
   - RIGHT
   - HOME
->>>>>>> origin/v0.2.6_MLX
   - PG UP
-  - END
-  - HOME
-  - PG DN
   - ENTER
+  - PG DN
+  - END
   BT:
   - BT CLR
   - {t: BT, h: '0'}
@@ -366,17 +333,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
-<<<<<<< HEAD
-  - ENTER
-=======
   - UP
   - SPACE
   - DOWN
   - RIGHT
   - HOME
->>>>>>> origin/v0.2.6_MLX
   - PG UP
-  - END
-  - HOME
-  - PG DN
   - ENTER
+  - PG DN
+  - END

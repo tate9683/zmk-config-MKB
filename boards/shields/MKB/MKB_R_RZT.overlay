@@ -17,11 +17,17 @@
         polling-interval-ms = <10>;
         z-press-threshold = <50>;
         z-hysteresis = <10>;
-        // normal-binding = <&kp A>;           // Behavior bindings can be added here
-        // pressed-binding = <&kp B>; // See driver documentation for usage
+        
+        bindings = <&mkp LCLK>, <&mkp MCLK>;
+        
+        deadzone-x = <3>;
+        deadzone-y = <3>;
+        deadzone-z = <5>;
+        
+        movement-threshold = <20>;
+        auto-calibration-timeout-s = <30>;
     };
 };
-
 
 &pinctrl {    
     i2c0_default: i2c0_default {
