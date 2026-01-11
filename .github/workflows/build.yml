@@ -1,8 +1,8 @@
 name: Build ZMK firmware
 on: 
   workflow_dispatch:
-  push:
-    paths:
+#  push:
+#    paths:
     #  - config/**
     #  - boards/**
     #  - build.yaml
@@ -72,6 +72,7 @@ jobs:
           title: Completed
           message: Completed
         if: ${{ always() }}
+
 
 
 
