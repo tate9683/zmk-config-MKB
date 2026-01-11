@@ -20,11 +20,6 @@ on:
         with:
           fetch-depth: ${{ (inputs.amend_commit == true && 2) || 1 }}
 
-
-   with:
-　 fetch-depth: 0
-
-
           
           submodules: recursive
           
@@ -49,15 +44,6 @@ on:
 
       - name: Download firmware artifacts
         uses: actions/download-artifact@v4
-
-- name: Pull latest changes   
-　run: git pull --rebase origin ${{ steps.branch-name.outputs.branch }}
-
- - name: Commit updated images
-   uses: stefanzweifel/git-auto-commit-action@v5
-
-
-
 
         
         with:
@@ -90,6 +76,7 @@ on:
           title: Completed
           message: Completed
         if: ${{ always() }}
+
 
 
 
