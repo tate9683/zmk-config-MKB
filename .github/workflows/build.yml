@@ -5,7 +5,7 @@ on:
     paths:
       - config/**
       - boards/**
-     - build.yaml
+      - build.yaml
  
 jobs:
   build:
@@ -72,5 +72,6 @@ jobs:
           title: Completed
           message: Completed
         if: ${{ always() }}
+
 
 
