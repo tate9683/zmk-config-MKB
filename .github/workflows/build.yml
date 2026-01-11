@@ -7,7 +7,7 @@ on:
       - boards/**
       - build.yaml
  
- 
+jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
   upload-firmware:
@@ -19,8 +19,6 @@ on:
         uses: actions/checkout@v4
         with:
           fetch-depth: ${{ (inputs.amend_commit == true && 2) || 1 }}
-
-          
           submodules: recursive
           
       - name: Get branch name
@@ -44,8 +42,6 @@ on:
 
       - name: Download firmware artifacts
         uses: actions/download-artifact@v4
-
-        
         with:
           path: firmware/${{ steps.branch-name.outputs.branch }}
 
@@ -76,12 +72,3 @@ on:
           title: Completed
           message: Completed
         if: ${{ always() }}
-
-
-
-
-
-
-
-
-
