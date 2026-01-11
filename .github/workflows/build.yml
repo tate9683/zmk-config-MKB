@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - config/**
-      - boards/**
-      - build.yaml
+    #  - config/**
+    #  - boards/**
+    #  - build.yaml
  
 jobs:
   build:
@@ -72,6 +72,7 @@ jobs:
           title: Completed
           message: Completed
         if: ${{ always() }}
+
 
 
 
